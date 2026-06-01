@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8880965861:AAG0M8cPi6KzUHTlIfG_VX65bNgM7GXVWJU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 LAST_UPDATE = 0
 GUESS_NUM: dict[int, int] = {}  # chat_id -> number
