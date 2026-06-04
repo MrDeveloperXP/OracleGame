@@ -44,7 +44,7 @@ def handle(msg: dict) -> None:
         )
 
     elif text == "/ping":
-        send(chat_id, "🏓 *Pong!* Bot is alive. ✅")
+        send(chat_id, "🏓 *Pong!* Bot is alive here. ✅")
 
     elif text == "/dice":
         faces = {1: "⚀", 2: "⚁", 3: "⚂", 4: "⚃", 5: "⚄", 6: "⚅"}
