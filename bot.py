@@ -37,7 +37,7 @@ def send_action(chat_id: int, action: str) -> None:
     requests.post(f"{API}/sendChatAction", json={"chat_id": chat_id, "action": action}, timeout=5)
 
 
-# ── Trivia data ──────────────────────────────────────────────────────────────
+# ── Trivia dataa ──────────────────────────────────────────────────────────────
 
 CAT_FACTS = [
     "A cat's brain is 90% similar to a human's.",
