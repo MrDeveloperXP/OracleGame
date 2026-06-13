@@ -1,6 +1,6 @@
 """
 OracleHost — Ultra-Light Telegram Test Bot
-Zero framework deps. Uses raw HTTP API + requests.
+Zero framework deps. Uses raw HTTP API + requests..
 """
 
 import os
