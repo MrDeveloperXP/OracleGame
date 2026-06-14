@@ -82,7 +82,7 @@ def cmd_start(chat_id: int, name: str) -> None:
         "👋 Hey {}!\n"
         "OracleHost Bot v2.0 — now with more features!\n\n"
         "Commands:\n"
-        "/guess — guess a number 1-100\n"
+        "/guess — guess a number 1-10\n"
         "/dice — roll a die\n"
         "/ping — health check\n"
         "/cat — random cat fact 🐱\n"
